@@ -8,8 +8,8 @@ The algorithm acts like a pipeline transforming inputs into stable outputs.
 This project focuses on how numerical methods behave in practice, especially when errors and instability occur.
 
 ## Project Structure
-- 'File_1': Core numerical computation and matrix-based operations
-- 'File_2': Iterative parameter estimation and stability handling
+- `File_1`: Core numerical computation and matrix-based operations
+- `File_2`: Iterative parameter estimation and stability handling
 
 
 ## Q1: Numerical Computation & Matrix Operations
@@ -55,10 +55,8 @@ Update rule:
 ε → small constant to prevent division by zero
 
 
-
 ## Core Challenge
 Ensuring num and den remain scalar values during computation.
-
 
 ## Issues Encountered & Fixes
 
@@ -96,8 +94,8 @@ Ensure consistent indexing across all variables
 - Open MATLAB
 - Set working directory to project folder
 - Run:
-  'file_1'
-  'file_2'
+    - `file_1`
+    - `file_2`
 
 ## Output
 - Computed numerical results
