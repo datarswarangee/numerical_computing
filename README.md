@@ -2,9 +2,9 @@
 
 ## Conceptual Intuition
 Think of this project as solving mathematical problems through structured computation.
-Each computation step refines the result.
-Intermediate values guide the final outcome.
-The algorithm acts like a pipeline transforming inputs into stable outputs.
+- Each computation step refines the result.
+- Intermediate values guide the final outcome.
+- The algorithm acts like a pipeline transforming inputs into stable outputs.
 This project focuses on how numerical methods behave in practice, especially when errors and instability occur.
 
 ## Project Structure
