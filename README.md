@@ -63,7 +63,7 @@ Ensuring num and den remain scalar values during computation.
 ### 1. Dimension Mismatch Error
    Unable to perform assignment because the left and right sides have a different number of elements
 
-✔ Cause
+🚨 Cause
 num or den computed as vectors instead of scalars
 
 ✔ Fix
@@ -73,7 +73,7 @@ Validate dimensions using size()
 
 ### 2. Numerical Instability
 
-✔ Cause
+🚨 Cause
 Division by very small values
 
 ✔ Fix
@@ -83,7 +83,7 @@ den + ε
 
 ### 3. Indexing Errors
 
-✔ Cause
+🚨 Cause
 Incorrect loop indexing leading to mismatched assignments
 
 ✔ Fix
